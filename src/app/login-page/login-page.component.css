@@ -1,0 +1,186 @@
+.login-page {
+    background-color: #FFFEFC;
+    height: 100vh;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.image_div {
+    background-image: url('/assets/william-warby-rcxiV1Htrhc-unsplash.jpg');
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 109%;
+    border-radius: 29px;
+    background-repeat: no-repeat;
+}
+.image-text_div {
+    background: linear-gradient(180deg, rgba(151, 118, 68, 0.35) 0%, rgba(0, 0, 0, 0.35) 100%);
+    display: flex;
+    border-radius: 26px;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 3.6rem;
+    padding-bottom: 1.6rem;
+    height: 94vh;
+    color: #FFFFFF;
+}
+.img-title {
+    font-size: 33px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    line-height: 56px;
+}
+.img-title_2 {
+    margin-bottom: 0px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 38px;
+}
+.logo_right {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+}
+.right_header {
+    text-align: center;
+    padding: 5px;
+}
+.tab-header {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.title-form {
+    color: #5B5B5B;
+}
+.nav-tabs {
+    display: flex;
+    justify-content: space-evenly;
+    --bs-nav-tabs-border-width: none;
+    padding: 8px;
+    list-style: none;
+    width: 315px;
+    height: 50px;
+    border-radius: 33px;
+    background-color: #F8EDDD;
+    color: #9E896A;
+}
+.nav-item {
+    width: 146px;
+    height: 35px;
+    padding: 5px;
+    border-radius: 33px;
+    color: #9E896A;
+    cursor: pointer;
+}
+.nav-tabs .nav-item.active {
+    background-color: #9E896A;
+    color: #FFFFFF;
+}
+.btn_Register,
+.btn_login {
+    display: flex;
+    justify-content: flex-end;
+}
+.tab-slider--container {
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+}
+p {
+    margin: 0px;
+}
+.forgot_password {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+}
+.forgot_password a {
+    text-decoration: none;
+    color: inherit;
+}
+#username::placeholder,
+#password::placeholder,
+#EmailAddress::placeholder {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 23px;
+    color: #ACACAC;
+}
+label {
+    padding: 0px 0px 6px 0px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.form-control {
+
+    border-radius: 40px;
+    border: 1px solid #9E896A
+}
+.form-control:focus {
+    box-shadow: none;
+}
+.login_btn {
+    width: 232px;
+    height: 49px;
+    background: #9E896A;
+    border-radius: 36px;
+    border: 1px solid #9E896A;
+    color: #FFFFFF;
+}/* Base styles for the checkbox */
+.checkbox-container {
+    display: inline-flex;
+    vertical-align: middle;
+  }
+  
+  .checkbox {
+    -webkit-appearance: none; /* Remove default appearance */
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #9e896a;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    position: relative; /* Added */
+  }
+  
+  /* Custom styles for checked state */
+  .checkbox:checked {
+    background-color: #9e896a;
+    border-color: #9e896a;
+  }
+  
+  /* Hide the default checkbox icon */
+  .checkbox:checked::before {
+    content: '\2713'; /* Unicode character for checkmark */
+    display: block;
+    text-align: center;
+    color: white;
+    position: absolute; /* Added */
+    top: 50%; /* Added */
+    left: 50%; /* Added */
+    transform: translate(-50%, -50%); /* Added */
+  }
+  
+  /* Optional: Add some space between the checkbox and label */
+  .label {
+    margin-left: 8px;
+  }
+.input-group-text {
+    display: flex;
+    align-items: center;
+}
+.eye_span {
+    position: absolute;
+    top: 72%;
+    right: 28px;
+    transform: translateY(-50%);
+}
